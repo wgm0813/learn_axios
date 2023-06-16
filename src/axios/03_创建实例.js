@@ -3,7 +3,7 @@ import axios from "axios";
 // 创建axios实例
 const instance = axios.create({
   withCredentials: false,
-  baseURL: 'http://123.207.32.32：9001', // api的base_url
+  baseURL: 'http://123.207.32.32:9001', // api的base_url
   timeout: 60000 // 请求超时时间
 });
 instance.get('/lyric',{
